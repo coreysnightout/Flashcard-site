@@ -1,0 +1,11 @@
+.header {
+  font-size: 2em;
+}
+
+.definition p {
+  display: none;
+}
+
+.show p {
+  display: none;
+}
