@@ -2,10 +2,19 @@
   font-size: 2em;
 }
 
-.definition p {
-  display: none;
+.description-hidden {
+display: none;
 }
 
-.show p {
-  display: none;
+h3 {
+  cursor: pointer;
+  color: #000088;
 }
+
+h3:hover {
+  text-decoration: underline;
+}
+
+/*.description-showing {
+
+}*/
