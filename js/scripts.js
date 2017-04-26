@@ -1,9 +1,11 @@
 $(document).ready(function() {
-  $("h3").click(function) {
-    $(".description-hidden").toggle();
-    $(".description-showing").toggle();
+  $(".buttons h3").click(function() {
+    // $(".description-hidden").toggle();
+    // $(".description-showing").toggle();
+    $(this).siblings().toggle();
   });
 });
+
 
 // $(function() {
 // $(".buttons").click(function() {
