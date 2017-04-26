@@ -1,10 +1,15 @@
 $(document).ready(function() {
   $(".buttons h3").click(function() {
-    // $(".description-hidden").toggle();
-    // $(".description-showing").toggle();
-    $(this).siblings().toggle();
+  $(this).siblings().toggle();
   });
 });
+// $(document).ready(function() {
+//   $(".buttons h3").click(function() {
+//     // $(".description-hidden").toggle();
+//     // $(".description-showing").toggle();
+//     $(this).siblings().toggle();
+//   });
+// });
 
 
 // $(function() {
